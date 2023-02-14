@@ -6,7 +6,6 @@ import axios from "axios";
 
 function App() {
   /* States */
-  const [title, setTitle] = useState("");
   const [editing, setEditing] = useState(false);
   const [activeTodo, setactiveTodo] = useState<IActiveTodo>({
     id: null,
